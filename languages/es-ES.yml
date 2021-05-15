@@ -19,4 +19,18 @@ recent_comments: Comentarios recientes
 Readmore: Leer más
 belongsto: Guardado en
 contents: Contenidos
-shareto: Cuota
+shareto: Comparir
+Discuss: Discuss
+Comment: Cometarios
+Hits: Hits
+copyright_title_prefix: "Titulo: "
+copyright_date_prefix: "Fecha: "
+copyright_update_prefix: "Ultima Actualización: "
+copyright_author_prefix: "Autor: "
+copyright_link_prefix: "Enlace del blog: "
+copyright_declare_prefix: "Declaracion de derechos de autor: "
+copyright_default_text: "El autor posee los derechos de autor. ¡Indique la fuente reproducida!"
+word_cnt: Palabras
+read_time: Minutos
+copy_success_text: "Copiado exitosamente!"
+Copy_address_and_show_QRCode: "Copiar direccion y mostrar QRCode"

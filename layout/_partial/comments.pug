@@ -115,6 +115,42 @@ if theme.valine.enable == true
     var guest_info = '#{ theme.valine.guest_info }'.split(',').filter(function(item){
       return GUEST_INFO.indexOf(item) > -1
     });
+
+    var langName = 'es',
+    langMode = {	
+        "nick": "NickName",
+        "mail": "Email",
+        "link": "Sitio web(http://)",
+        "nickFail":"NickName no puede tener menos de 3 bytes.",
+        "mailFail":"Por favor confirma tu dirección de correo electrónico.",
+        "sofa": "Aún no hay comentarios.",
+        "submit": "Enviar",
+        "reply": "Responder",
+        "cancelReply": "Cancelar respuesta",
+        "comments": "Comentarios",
+        "cancel": "Cancelar",
+        "confirm": "Confirmar",
+        "continue": "Continuar",
+        "more": "Cargar mas...",
+        "preview": "Vista previa",
+        "emoji": "Emoji",
+        "expand": "Ver mas....",
+        "seconds": "Hace unos segundos",
+        "minutes": "Hace unos minutos",
+        "hours": "Hace unas horas",
+        "days": "Hace unos dias",
+        "now": "Justo ahora",
+        "uploading":"Cargando ...",
+        "uploadDone":"Carga completa!",
+        "busy":"Esta demorando, Por favor espera...",
+        "code-98":"La inicialización de valina falló, verifique su versión de av-min.js.",
+        "code-99": "La inicialización de Valine falló. Por favor, marque el elemento `el` en el método init.",
+        "code-100": "La inicialización de la valina falló. Verifique su appId y appKey.",
+        "code-140":"El número total de llamadas a la API hoy ha superado el límite de la versión de desarrollo.",
+        "code-401": "Operación no autorizada, verifique su appId y appKey.",
+        "code-403": "Acceso denegado por la lista blanca de dominios de API, compruebe su dominio de seguridad."
+    };
+
     guest_info = guest_info.length == 0 ? GUEST_INFO :guest_info;
     window.valine = new Valine({
       el:'#vcomment',
@@ -125,7 +161,9 @@ if theme.valine.enable == true
       placeholder:'#{theme.valine.placeholder}',
       avatar:'#{theme.valine.avatar}',
       guest_info:guest_info,
-      pageSize:'#{theme.valine.pageSize}'
+      pageSize:'#{theme.valine.pageSize}',
+      lang: langName,
+      langMode: langMode
     })
 
 if theme.minivaline.enable == true
