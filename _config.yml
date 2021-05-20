@@ -101,5 +101,24 @@ theme: maupassant
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
+
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/parziva-1/dev-test.ga # https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
+  branch: master
+  message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
+
+sitemap:
+  path: sitemap.xml
+  rel: true
+  tags: false
+  categories: false
+
+autor:
+  name: Jaime Linares
+  desc: Soy un apasionado por la tecnologia, 
+  photo: https://avatars.githubusercontent.com/u/32104719
+  facebook: 2
+  twitter: 3
+  github: 4
+  linkedin: 5
