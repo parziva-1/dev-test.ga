@@ -4,9 +4,9 @@
 
 # Site
 title: Dev-Test
-subtitle: 'Para aprender se debe practicar'
-description: ''
-keywords:
+subtitle: 'Crea lo que quieras, pero crea...'
+description: 'Un lugar donde aprender de todo un poquito.'
+keywords: ["Python", "Tutoriales", "Retos", "Traducciones"]
 author: Jaime Linares
 language: es-ES
 timezone: ''

@@ -1,15 +1,17 @@
 ---
-title: ¿Que es SendGrid? SMPT email newsletter tutorial
+title: ¿Qué es SendGrid? SMPT email newsletter tutorial
 date: 2021-05-19 20:49:21
 tags: [NewsLetter, SendGrid, SMPT]
-categories: [Tutorial]
+categories: [Tutoriales]
+toc: true
 ---
 
-Este tutorial es una traducción de un articulo original de [Nicholas Carrigan](https://www.freecodecamp.org/news/author/nhcarrigan/) y puedes encontrar el articulo original en [FreeCodeCamp.org](https://www.freecodecamp.org/news/what-is-sendgrid-smpt-email-newsletter-tutorial/).
+Este tutorial es una traducción de un artículo original de [Nicholas Carrigan](https://www.freecodecamp.org/news/author/nhcarrigan/) y puedes encontrar el artículo en [FreeCodeCamp.org](https://www.freecodecamp.org/news/what-is-sendgrid-smpt-email-newsletter-tutorial/).
+
+>💡***Anotación:*** A lo largo de este tutorial voy a usar palabras en ingles como email, emails, newsletter etc. Dejaré la traducción la primera vez que aparezcan con la intención de ir acostumbrándonos a estos nuevos términos que encontremos, te agradezco si tienes una forma mejor de hacerlo me lo dejes en los comentarios.
 
 ![img - https://www.freecodecamp.org/news/content/images/size/w2000/2021/05/pexels-rakicevic-nenad-1262304.jpg](https://www.freecodecamp.org/news/content/images/size/w2000/2021/05/pexels-rakicevic-nenad-1262304.jpg)
 
->#### 💡***Consejo:*** a lo largo de este tutorial voy a usar palabras en ingles como email, emails, newsletter etc. Dejare la traducción la primera vez que aparezcan con la intención de ir acostumbrándonos  a estos nuevos términos que encontremos, te agradezco si tienes una forma mejor de hacerlo me lo dejes en los comentarios.
 
 Tal vez escuchaste el término SMTP antes, y te habrás preguntado que es. SMTP es un método comúnmente usado para manejar emails (correo electrónico).
 
@@ -17,7 +19,7 @@ Hoy voy a explicarte que es SMTP, y como usar un proveedor de SMTP como SendGrid
 
 ## ¿Qué es SMTP?
 
-SMTP (Simple Mail Transfer Protocol o Protocolo para Transferencia Simple de Correo), es el método a través del cual los servidores mandan emails (correos electrónicos). Cuando enviás un correo electrónico a través de tu cuenta de Gmail, por ejemplo, tu cliente de email usa SMTP para enviar ese mensaje al servidor. El servidor también usa SMTP para enviarlo al servidor receptor.
+SMTP (Simple Mail Transfer Protocol o Protocolo para Transferencia Simple de Correo), es el método a través del cual los servidores mandan emails (correos electrónicos). Cuando envías un correo electrónico a través de tu cuenta de Gmail, por ejemplo, tu cliente de email usa SMTP para enviar ese mensaje al servidor. El servidor también usa SMTP para enviarlo al servidor receptor.
 
 Sin ahondar mucho en detalles técnicos, la forma más sencilla de pensar en SMTP es como un servidor de emails.
 

@@ -3,20 +3,21 @@ title: Operadores de python
 date: 2021-05-17 20:05:50
 tags: Python
 categories: [Principiantes]
+toc: true
 ---
-¡Hola y bienvenidos!. Si estas aprendiendo Python, esta guiá es para ti, encontraras una exhaustiva descripción de la sintaxis de Python y montones de código de ejemplos para ayudarte en tu aprendizaje.
+¡Hola y bienvenidos!. Si estás aprendiendo Python, esta guía es para ti, encontraras una exhaustiva descripción de la sintaxis de Python y montones de código de ejemplos para ayudarte en tu aprendizaje.
 
-Esta guía es una adaptación y traducción de un articulo original de [Estefania Cassingena Navone](https://twitter.com/EstefaniaCassN) que lo puedes encontrar en [FreeCodeCamp.org](https://www.freecodecamp.org/news/python-code-examples-sample-script-coding-tutorial-for-beginners/).
+Esta guía es una adaptación y traducción de un artículo original de [Estefania Cassingena Navone](https://twitter.com/EstefaniaCassN) que lo puedes encontrar en [FreeCodeCamp.org](https://www.freecodecamp.org/news/python-code-examples-sample-script-coding-tutorial-for-beginners/).
 
->#### 💡***Consejo:*** a lo largo de esta guiá, voy a usar `<>` para indicar que esta parte de la sintaxis sera remplazada por el elemento descrito por el texto dentro de ella. Un ejemplo de ello seria `<variable>` y para temas prácticos voy a usar un diminutivo `<var>` esto quiere decir que sera remplazado por el nombre de una variable cuando escribamos el código.
+>💡***Anotación:*** a lo largo de esta guiá, voy a usar `<>` para indicar que esta parte de la sintaxis sera remplazada por el elemento descrito por el texto dentro de ella. Un ejemplo de ello seria `<variable>` y para temas prácticos voy a usar un diminutivo `<var>` esto quiere decir que sera remplazado por el nombre de una variable cuando escribamos el código.
 
-### Manos a la obra
 
-## Operadores aritméticos en python
+## Operadores aritméticos en Python
 
 Esos operadores son:
 
 ### Adicción: `+`
+
 
 ``` python
 >>> 5 + 6
@@ -36,11 +37,11 @@ Esos operadores son:
 ```
 what-is-sendgrid-smpt-email-newsletter-tutorial
 Que-es-sendgrid-smpt-email-newsletter-tutorial
->#### 💡***Consejo:*** Los dos últimos ejemplos son curiosos, ¿verdad? Estos operadores se comportan diferente según el tipo de dato de los operandos.
->#### 
->#### Cuando son strings (cadenas de texto), este operador concatena las cadenas de texto y cuando son valores Booleanos, se realiza una operación particular.
+>💡***Anotación:*** Los dos últimos ejemplos son curiosos, ¿verdad? Estos operadores se comportan diferente según el tipo de dato de los operandos.
 >
->#### En python, `True` es equivalente a `1` y `False` es equivalente a `0`. Por eso el resultado es: `1 + 0 = 1`
+>Cuando son strings (cadenas de texto), este operador concatena las cadenas de texto y cuando son valores Booleanos, se realiza una operación particular.
+>
+>En python, `True` es equivalente a `1` y `False` es equivalente a `0`. Por eso el resultado es: `1 + 0 = 1`
 
 ### Sustracción: `-`
 
@@ -98,7 +99,7 @@ Que-es-sendgrid-smpt-email-newsletter-tutorial
 ''
 ```
 
->#### 💡***Consejo:*** Tu puedes "Multiplicar" un `str` por un `int` (Numero entero) para repetir la cadena de texto un numero dado de veces.
+>💡***Anotación:*** Tu puedes "Multiplicar" un `str` por un `int` (Numero entero) para repetir la cadena de texto un numero dado de veces.
 
 ### Potenciación: `**`
 
@@ -162,9 +163,9 @@ Que-es-sendgrid-smpt-email-newsletter-tutorial
 -0.75
 ```
 
->#### 💡***Consejo:*** Este operador devuelve un `float` como resultado, incluso si la parte decimal es `.0`
+>💡***Anotación:*** Este operador devuelve un `float` como resultado, incluso si la parte decimal es `.0`
 
-Si tu tratas de dividir por cero, te devolverá un error `ZeroDivisionError`:
+Si tratas de dividir por cero, te devolverá un error `ZeroDivisionError`:
 
 ``` python
 >>> 5 / 0
@@ -176,7 +177,7 @@ ZeroDivisionError: division by zero
 
 ### División entera: //
 
-Este operador devuelve un `int` si los operandos son `int`. Si son `float`, el resultado sera un `float` con `.0` como parte decimal porque trunca la parte decimal.
+Este operador devuelve un `int` si los operandos son `int`. Si son `float`, el resultado será un `float` con `.0` como parte decimal porque trunca la parte decimal.
 
 ``` python
 >>> 5 // 6
@@ -324,7 +325,7 @@ False
 True
 ```
 
-Típicamente los usamos para comparar los valores de dos o mas variables:
+Típicamente los usamos para comparar los valores de dos o más variables:
 
 ``` python
 >>> a = 1
@@ -349,11 +350,11 @@ False
 True
 ```
 
->#### 💡***Consejo:*** Nótese que el operador de comparación es `==` mientras que el de asignación es `=`. El efecto es diferente. `==` devuelve `True` o `False` mientras que `=` asigna un valor a un variable.
+>💡***Anotación:*** Nótese que el operador de comparación es `==` mientras que el de asignación es `=`. El efecto es diferente. `==` devuelve `True` o `False` mientras que `=` asigna un valor a un variable.
 
 ## Encadenamiento de operadores de comparación
 
-En python podemos usar algo denominado "comparison operator chaining" en español "Encadenamiento de operadores de comparación" en la que encadenamos los operadores de comparación para hacer mas de una comparación de una manera más concisa.
+En Python podemos usar algo denominado "comparison operator chaining" en español "Encadenamiento de operadores de comparación" en la que encadenamos los operadores de comparación para hacer más de una comparación de una manera más concisa.
 
 Por ejemplo, esto verifica si `a` es menor que `b` y `b` es menor que `c`
 
@@ -361,7 +362,7 @@ Por ejemplo, esto verifica si `a` es menor que `b` y `b` es menor que `c`
 a < b < c
 ```
 
-Aqui tenemos algunos ejemplos:
+Aquí tenemos algunos ejemplos:
 
 ``` python
 >>> a = 1
@@ -433,7 +434,7 @@ False
 True
 ```
 
-Estos operadores son usados para formar expresiones mas complejas que combinan diferentes operadores y variables.
+Estos operadores son usados para formar expresiones más complejas que combinan diferentes operadores y variables.
 
 Por ejemplo:
 
@@ -499,11 +500,11 @@ Por ejemplo:
 1.0
 ```
 
->#### 💡***Consejo:*** estos operadores realizan operaciones bit a bit antes de asignar el resultado a la variable: `&=`, `|=`, `^=`, `>>=`, `<<=`.
+>💡***Anotación:*** estos operadores realizan operaciones bit a bit antes de asignar el resultado a la variable: `&=`, `|=`, `^=`, `>>=`, `<<=`.
 
 ## Operadores de membresía
 
-Tu puedes comprobar si un elemento es una lista secuencia o no con los operadores: `in` y `not in`. El resultado sera `True` o `False`.
+Puedes comprobar si un elemento es una lista secuencia o no con los operadores: `in` y `not in`. El resultado será `True` o `False`.
 
 Por ejemplo:
 
@@ -560,4 +561,4 @@ Típicamente los usamos con variables que almacenan secuencias, como en este eje
 True
 ```
 
-Este es un articulo al cual regresasar constante mente mientras interiorisas estos nuevos conceptos, añadelo a tus marcadores, te invito a que abras tu editor de código favorito y practiques, no te olvides de comentar y compartir, nos vemos en otro articulo.
+Este es un artículo al cual regresar constante mente mientras interiorizas estos nuevos conceptos, añádelo a tus marcadores, te invito a que abras tu editor de código favorito y practiques, no te olvides de comentar y compartir, nos vemos en otro artículo.
