@@ -21,7 +21,10 @@ html(lang=config.language)
   body: .body_container
     #header
       .site-name
-        h1.hidden= current_title
+        if is_home()
+          h1.hidden= current_title
+        else 
+          p.hidden= current_title
         a#logo(href=url_for('.'))= config.title
         p.description= config.subtitle
       #nav-menu

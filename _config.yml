@@ -111,9 +111,9 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
 
 links:
   - title: FreeCodeCamp
-    url: http://www.freecodecamp.org/
+    url: https://www.freecodecamp.org/
   - title: Platzi
-    url: http://www.platzi.com/
+    url: https://www.platzi.com/
 
 timeline:
   - num: 1
