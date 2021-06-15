@@ -4,6 +4,7 @@ author: Jaime Linares
 date: 2021-05-14 20:49:21
 tags: Python
 categories: [Principiantes]
+desc: En este artículo voy a tratar de explicar el tipado que maneja el lenguaje de programación Python en su versión 3.x, sin más rodeos empiezo.
 ---
 
 En este artículo voy a tratar de explicar el tipado que maneja el lenguaje de programación Python en su versión 3.x, sin más rodeos empiezo.

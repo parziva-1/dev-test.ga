@@ -4,6 +4,8 @@ date: 2021-05-24 19:26:19
 tags: Python
 categories: [Principiantes]
 toc: true
+desc: Ahora vas a saber como escribir condiciones en Python, vamos a iniciar con los ciclos. El ciclo for es una de esas estructuras de programación que vamos a usar para repetir un bloque de código un número específico de veces.
+
 ---
 ¡Hola y bienvenidos!. Si estás aprendiendo Python, esta guía es para ti, encontraras una exhaustiva descripción de la sintaxis de Python y montones de código de ejemplos para ayudarte en tu aprendizaje.
 

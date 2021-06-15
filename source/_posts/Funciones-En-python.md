@@ -4,6 +4,7 @@ date: 2021-06-02 20:37:57
 tags: Python
 categories: [Principiantes]
 toc: true
+desc: En Python, podemos definir función para hacer nuestro código reutilizable, más legible y organizado. Esta es la sintaxis básica de una función en Python.
 ---
 ¡Hola y bienvenidos!. Si estás aprendiendo Python, esta guía es para ti, encontraras una exhaustiva descripción de la sintaxis de Python y montones de código de ejemplos para ayudarte en tu aprendizaje.
 

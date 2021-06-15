@@ -4,6 +4,7 @@ date: 2021-05-17 20:05:50
 tags: Python
 categories: [Principiantes]
 toc: true
+desc: ¡Hola y bienvenidos!. Si estás aprendiendo Python, esta guía es para ti, encontraras una exhaustiva descripción de la sintaxis de Python y montones de código de ejemplos para ayudarte en tu aprendizaje.
 ---
 ¡Hola y bienvenidos!. Si estás aprendiendo Python, esta guía es para ti, encontraras una exhaustiva descripción de la sintaxis de Python y montones de código de ejemplos para ayudarte en tu aprendizaje.
 
@@ -35,8 +36,7 @@ Esos operadores son:
 >>> True + False
 1
 ```
-what-is-sendgrid-smpt-email-newsletter-tutorial
-Que-es-sendgrid-smpt-email-newsletter-tutorial
+
 >💡***Anotación:*** Los dos últimos ejemplos son curiosos, ¿verdad? Estos operadores se comportan diferente según el tipo de dato de los operandos.
 >
 >Cuando son strings (cadenas de texto), este operador concatena las cadenas de texto y cuando son valores Booleanos, se realiza una operación particular.

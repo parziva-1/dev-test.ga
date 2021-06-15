@@ -3,6 +3,7 @@ title: Definición de variables en Python
 date: 2021-05-03 20:32:06
 tags: Python
 categories: [Principiantes]
+desc: La parte más básica de cualquier lenguaje de programación es el concepto de una variable, un nombre y un lugar en memoria que reservamos para un valor.
 ---
 
 ¡Hola y bienvenidos!. Si estás aprendiendo Python, esta guía es para ti, encontraras una exhaustiva descripción de la sintaxis de Python y montones de código de ejemplos para ayudarte en tu aprendizaje.

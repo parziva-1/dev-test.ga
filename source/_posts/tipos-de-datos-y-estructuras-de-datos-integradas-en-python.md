@@ -4,6 +4,7 @@ date: 2021-05-20 14:40:43
 tags: Python
 categories: [Principiantes]
 toc: true
+desc: Tenemos varios tipos de datos y estructuras de datos con los que podemos usar en nuestros programas. Cada un tiene su aplicación particular. Vamos a verlos en detalle.
 ---
 ¡Hola y bienvenidos!. Si estás aprendiendo Python, esta guía es para ti, encontraras una exhaustiva descripción de la sintaxis de Python y montones de código de ejemplos para ayudarte en tu aprendizaje.
 

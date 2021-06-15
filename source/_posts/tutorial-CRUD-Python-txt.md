@@ -7,6 +7,7 @@ categories:
   - Tutoriales
 toc: true
 date: 2021-06-13 18:55:46
+desc: En informática, CRUD es el acrónimo de
 ---
 
 ## CRUD, ¿Qué es?

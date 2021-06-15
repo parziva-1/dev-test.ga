@@ -4,6 +4,7 @@ date: 2021-05-19 20:49:21
 tags: [NewsLetter, SendGrid, SMPT]
 categories: [Tutoriales]
 toc: true
+desc: Tal vez escuchaste el término SMTP antes, y te habrás preguntado que es. SMTP es un método comúnmente usado para manejar emails (correo electrónico).
 ---
 
 Este tutorial es una traducción de un artículo original de [Nicholas Carrigan](https://www.freecodecamp.org/news/author/nhcarrigan/) y puedes encontrar el artículo en [FreeCodeCamp.org](https://www.freecodecamp.org/news/what-is-sendgrid-smpt-email-newsletter-tutorial/).
