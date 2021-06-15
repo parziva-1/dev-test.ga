@@ -8,7 +8,7 @@ Buen día, espero estés muy bien.
 Te comento soy la persona que esta detrás de Dev-Test. Mi nombre es Jaime linares y estoy muy contento de ayudarte a crecer y mejorar aportando contenido útil para tu desarrollo como programador.
 
 <div class="about"> 
-    <img src="https://avatars.githubusercontent.com/u/32104719" style="border-radius: 50%;"></img>
+    <img src="https://avatars.githubusercontent.com/u/32104719" style="border-radius: 50%;" alt="Pic-Profile"></img>
     
     <h1>Unas cosas sobre mi</h1>
 
