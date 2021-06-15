@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://dev-test.ga/2021/06/13/tutorial-CRUD-Python-txt/</loc>
+    <loc>http://dev-test.ga/2021/05/24/ciclo-for-en-Python/</loc>
     
     <lastmod>2021-06-14</lastmod>
     
@@ -11,49 +11,49 @@
   <url>
     <loc>http://dev-test.ga/2021/06/02/Funciones-En-python/</loc>
     
-    <lastmod>2021-06-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://dev-test.ga/2021/05/24/ciclo-for-en-Python/</loc>
-    
-    <lastmod>2021-06-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://dev-test.ga/2021/05/19/Que-es-sendgrid-smpt-email-newsletter-tutorial/</loc>
-    
-    <lastmod>2021-06-13</lastmod>
+    <lastmod>2021-06-14</lastmod>
     
   </url>
   
   <url>
     <loc>http://dev-test.ga/2021/05/17/operadores-de-python/</loc>
     
-    <lastmod>2021-06-03</lastmod>
+    <lastmod>2021-06-14</lastmod>
     
   </url>
   
   <url>
     <loc>http://dev-test.ga/2021/05/03/python-01/</loc>
     
-    <lastmod>2021-06-03</lastmod>
+    <lastmod>2021-06-14</lastmod>
     
   </url>
   
   <url>
-    <loc>http://dev-test.ga/2021/05/20/tipos-de-datos-y-estructuras-de-datos-integradas-en-python/</loc>
+    <loc>http://dev-test.ga/2021/05/19/Que-es-sendgrid-smpt-email-newsletter-tutorial/</loc>
     
-    <lastmod>2021-06-03</lastmod>
+    <lastmod>2021-06-14</lastmod>
     
   </url>
   
   <url>
     <loc>http://dev-test.ga/2021/05/14/tipado-python/</loc>
     
-    <lastmod>2021-05-29</lastmod>
+    <lastmod>2021-06-14</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://dev-test.ga/2021/05/20/tipos-de-datos-y-estructuras-de-datos-integradas-en-python/</loc>
+    
+    <lastmod>2021-06-14</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://dev-test.ga/2021/06/13/tutorial-CRUD-Python-txt/</loc>
+    
+    <lastmod>2021-06-14</lastmod>
     
   </url>
   
@@ -74,7 +74,7 @@
 
   <url>
     <loc>http://dev-test.ga/</loc>
-    <lastmod>2021-06-14</lastmod>
+    <lastmod>2021-06-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
