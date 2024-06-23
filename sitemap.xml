@@ -1,38 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
-  {% for post in posts %}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
   <url>
-    <loc>{{ post.permalink | uriencode }}</loc>
-    {% if post.updated %}
-    <lastmod>{{ post.updated | formatDate }}</lastmod>
-    {% elif post.date %}
-    <lastmod>{{ post.date | formatDate }}</lastmod>
-    {% endif %}
+    <loc>https://parziva-1.github.io/dev-test.ga/2021/06/02/Funciones-En-python/</loc>
+    
+    <lastmod>2024-06-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
-  {% endfor %}
+  
+  <url>
+    <loc>https://parziva-1.github.io/dev-test.ga/2021/05/19/Que-es-sendgrid-smpt-email-newsletter-tutorial/</loc>
+    
+    <lastmod>2024-06-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://parziva-1.github.io/dev-test.ga/2021/05/24/ciclo-for-en-Python/</loc>
+    
+    <lastmod>2024-06-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://parziva-1.github.io/dev-test.ga/2021/05/17/operadores-de-python/</loc>
+    
+    <lastmod>2024-06-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://parziva-1.github.io/dev-test.ga/2021/05/03/python-01/</loc>
+    
+    <lastmod>2024-06-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://parziva-1.github.io/dev-test.ga/2021/05/14/tipado-python/</loc>
+    
+    <lastmod>2024-06-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://parziva-1.github.io/dev-test.ga/2021/05/20/tipos-de-datos-y-estructuras-de-datos-integradas-en-python/</loc>
+    
+    <lastmod>2024-06-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://parziva-1.github.io/dev-test.ga/2021/06/13/tutorial-CRUD-Python-txt/</loc>
+    
+    <lastmod>2024-06-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://parziva-1.github.io/dev-test.ga/manifest.json</loc>
+    
+    <lastmod>2024-06-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://parziva-1.github.io/dev-test.ga/about/index.html</loc>
+    
+    <lastmod>2024-06-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
   <url>
-    <loc>{{ config.url | uriencode }}</loc>
-    <lastmod>{{ sNow | formatDate }}</lastmod>
+    <loc>https://parziva-1.github.io/dev-test.ga</loc>
+    <lastmod>2024-06-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
-  {% for tag in tags %}
-  <url>
-    <loc>{{ tag.permalink | uriencode }}</loc>
-    <lastmod>{{ sNow | formatDate }}</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  {% endfor %}
+  
 
-  {% for cat in categories %}
-  <url>
-    <loc>{{ cat.permalink | uriencode }}</loc>
-    <lastmod>{{ sNow | formatDate }}</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  {% endfor %}
+  
 </urlset>
